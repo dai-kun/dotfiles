@@ -3,12 +3,15 @@ set t_Co=256
 filetype plugin on
 filetype indent on
 
+" Use `i_Ctrl-K` to enter digraph characters
+" Use `i_Ctrl-V u` to enter unicode characters
+
 set autochdir
 set autoindent
 set backspace=2
 set cursorline
 "set dictionary=/usr/share/dict/linux.words
-set fillchars=vert:\|
+set fillchars=vert:┃
 set expandtab
 set history=50
 set hidden

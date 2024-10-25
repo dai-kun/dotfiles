@@ -19,7 +19,7 @@ if &t_Co > 2 || has("gui_running")
         hi LineNr       cterm=none      ctermfg=DarkBlue
         hi CursorLineNr cterm=none      ctermfg=Black       ctermbg=DarkBlue
         hi CursorLine   cterm=none                          ctermbg=239
-        hi VertSplit    cterm=none
+        hi VertSplit    cterm=none      ctermfg=DarkBlue    ctermbg=236
         hi NonText      cterm=none      ctermfg=Black
     endif
 
