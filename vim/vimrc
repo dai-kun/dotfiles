@@ -40,7 +40,7 @@ set wildmenu
 
 let g:mapleader=","
 
-command -nargs=1 -compile=tag SplitWindowByTag wincmd v | tag <arg>
+command -nargs=1 -complete=tag SplitWindowByTag wincmd v | tag <arg>
 nnoremap <Leader>f :SplitWindowByTag<Space>
 nnoremap <Leader>n :cNext<CR>
 nnoremap <Leader>m :cnext<CR>
