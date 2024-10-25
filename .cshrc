@@ -22,18 +22,9 @@ source ~/.csh/lock_term.csh
 # EDA Tools
 #
 source ~/.csh/module.csh
-source ~/.csh/socrates.csh
 source ~/.csh/env.csh
-source ~/.csh/ctags.csh
 
 #
 # In-House Tools
 #
-source ~/.csh/yflist.csh
-source ~/.csh/yhier.csh
-source ~/.csh/ynoc.csh
-source ~/.csh/yutil.csh
-source ~/.csh/yreg.csh
-source ~/.csh/gen_bb.csh
-source ~/.csh/beenv.csh
-source ~/.csh/release_check.csh
+# EMPTY
