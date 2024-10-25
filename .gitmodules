@@ -1,32 +1,32 @@
 [submodule "vim/bundle/verilog_systemverilog.vim"]
-	path = .vim/bundle/verilog_systemverilog.vim
+	path = vim/bundle/verilog_systemverilog.vim
 	url = https://github.com/vhda/verilog_systemverilog.vim
 [submodule "vim/bundle/rainbow"]
-	path = .vim/bundle/rainbow
+	path = vim/bundle/rainbow
 	url = https://github.com/luochen1990/rainbow
 [submodule "vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
+	path = vim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree
 [submodule "vim/bundle/vim-speeddating"]
-	path = .vim/bundle/vim-speeddating
+	path = vim/bundle/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating
 [submodule "vim/bundle/indentLine"]
-	path = .vim/bundle/indentLine
+	path = vim/bundle/indentLine
 	url = https://github.com/Yggdroot/indentLine
 [submodule "vim/bundle/lightline.vim"]
-	path = .vim/bundle/lightline.vim
+	path = vim/bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
 [submodule "vim/bundle/vim-cursorword"]
-	path = .vim/bundle/vim-cursorword
+	path = vim/bundle/vim-cursorword
 	url = https://github.com/itchyny/vim-cursorword
 [submodule "vim/bundle/hl_matchit.vim"]
-	path = .vim/bundle/hl_matchit.vim
+	path = vim/bundle/hl_matchit.vim
 	url = https://github.com/vimtaku/hl_matchit.vim
 [submodule "vim/bundle/dracula"]
-	path = .vim/bundle/dracula
+	path = vim/bundle/dracula
 	url = https://github.com/dracula/vim
 [submodule "vim/bundle/vim-pathogen"]
-	path = .vim/bundle/vim-pathogen
+	path = vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
 [submodule "LS_COLORS"]
 	path = LS_COLORS
