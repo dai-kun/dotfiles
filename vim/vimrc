@@ -14,7 +14,7 @@ set history=50
 set hidden
 set incsearch
 set laststatus=2
-set lazeyredraw
+set lazyredraw
 "set keywordprg="cat /usr/share/dict/linux.words | grep"
 set nobackup
 "set nocindent
@@ -45,6 +45,7 @@ nnoremap <Leader>f :SplitWindowByTag<Space>
 nnoremap <Leader>n :cNext<CR>
 nnoremap <Leader>m :cnext<CR>
 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 runtime settings/ui.vim

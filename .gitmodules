@@ -25,3 +25,6 @@
 [submodule "vim/bundle/dracula"]
 	path = vim/bundle/dracula
 	url = https://github.com/dracula/vim
+[submodule "vim/bundle/vim-pathogen"]
+	path = vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen

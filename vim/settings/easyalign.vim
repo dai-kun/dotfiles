@@ -1,3 +1,3 @@
-let g:easy_align_delimiters = {
-    ...
-}
+"let g:easy_align_delimiters = {
+"    ...
+"}
