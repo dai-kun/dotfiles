@@ -1,0 +1,2 @@
+runtime syntax/tcl.vim就行了，就直接调用了tcl的语法
+然后可以根据自己的实际需求，把sdc相关的一些关键字补上去

@@ -1,0 +1,64 @@
+set t_Co=256
+"set mouse=a
+filetype plugin on
+filetype indent on
+
+set autochdir
+set autoindent
+set backspace=2
+set cursorline
+"set dictionary=/usr/share/dict/linux.words
+set fillchars=vert:\|
+set expandtab
+set history=50
+set hidden
+set incsearch
+set laststatus=2
+set lazeyredraw
+"set keywordprg="cat /usr/share/dict/linux.words | grep"
+set nobackup
+"set nocindent
+set nocompatible
+set number
+"set nowrap
+set ruler
+"set smartindent
+set shiftwidth=4
+set splitright
+set splitbelow
+set showcmd
+set showmatch
+set noshowmode
+"set showtabline=2
+set softtabstop=4
+set synmaxcol=360
+set tabpagemax=30
+set tabstop=4
+set tags=./tags
+set wildmenu
+"set cpt+=k/usr/share/dict/linux.words
+
+let g:mapleader=","
+
+command -nargs=1 -compile=tag SplitWindowByTag wincmd v | tag <arg>
+nnoremap <Leader>f :SplitWindowByTag<Space>
+nnoremap <Leader>n :cNext<CR>
+nnoremap <Leader>m :cnext<CR>
+
+execute pathogen#infect()
+
+runtime settings/ui.vim
+runtime settings/cursorword.vim
+runtime settings/airline.vim
+runtime settings/lightline.vim
+runtime settings/easyalign.vim
+runtime settings/indentLine.vim
+runtime settings/hl_matchit.vim
+runtime settings/NERDTree.vim
+runtime settings/rainbow.vim
+runtime settings/json.vim
+runtime settings/perl.vim
+runtime settings/python.vim
+runtime settings/tcl.vim
+runtime settings/verilog_systemverilog.vim
+runtime macros/matchit.vim

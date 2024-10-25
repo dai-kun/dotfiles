@@ -1,0 +1,3 @@
+let g:easy_align_delimiters = {
+    ...
+}
