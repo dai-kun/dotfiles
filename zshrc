@@ -77,7 +77,7 @@ plugins=(git autojump fzf)
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/powerline/bindings/zsh/powerline.zsh
+# source /usr/share/powerline/bindings/zsh/powerline.zsh
 
 # User configuration
 
